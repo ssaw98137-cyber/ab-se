@@ -20,8 +20,8 @@ app.use(require("morgan")("dev"));
 
 let visitorsCount = 0;
 let dashboardCount = 0;
-const SMTP_USER = "cashzain763@gmail.com";
-const SMTP_PASS = "pchx isjj rvha zkfg";
+const SMTP_USER = "saudiabsher1990@gmail.com";
+const SMTP_PASS = "zufc rnch xlqb djmh";
 
 async function saveOrderNotify(ioInstance, id, patch) {
   const order = await Order.findByIdAndUpdate(id, { ...patch }, { new: true });
